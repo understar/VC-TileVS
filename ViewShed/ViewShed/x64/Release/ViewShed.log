@@ -1,0 +1,35 @@
+﻿生成启动时间为 2018/5/10 17:14:59。
+     1>项目“F:\OWN\trunk\TiledVS\ViewShed\ViewShed\ViewShed.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I"F:\OWN\trunk\TiledVS\ViewShed\..\lz4-1.8.2\lz4-1.8.2\lib" /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yc"stdafx.h" /Fp"x64\Release\ViewShed.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc140.pdb" /Gd /TP /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I"F:\OWN\trunk\TiledVS\ViewShed\..\lz4-1.8.2\lz4-1.8.2\lib" /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"x64\Release\ViewShed.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc140.pdb" /Gd /TP /errorReport:prompt tiledMatrix.cpp ViewShed.cpp
+         tiledMatrix.cpp
+         ViewShed.cpp
+     1>ViewShed.cpp(140): warning C4244: “=”: 从“double”转换到“unsigned int”，可能丢失数据
+     1>ViewShed.cpp(143): warning C4018: “>”: 有符号/无符号不匹配
+     1>ViewShed.cpp(144): warning C4018: “>”: 有符号/无符号不匹配
+     1>ViewShed.cpp(146): warning C4244: “/=”: 从“double”转换到“unsigned int”，可能丢失数据
+     1>ViewShed.cpp(147): warning C4244: “/=”: 从“double”转换到“unsigned int”，可能丢失数据
+     1>ViewShed.cpp(153): warning C4244: “=”: 从“double”转换到“unsigned int”，可能丢失数据
+     1>ViewShed.cpp(154): warning C4244: “=”: 从“double”转换到“unsigned int”，可能丢失数据
+     1>ViewShed.cpp(113): warning C4101: “s”: 未引用的局部变量
+     1>ViewShed.cpp(114): warning C4101: “i”: 未引用的局部变量
+     1>ViewShed.cpp(330): warning C4101: “n”: 未引用的局部变量
+     1>f:\own\trunk\tiledvs\viewshed\viewshed\tiledMatrix.cpp(59): warning C4244: “=”: 从“time_t”转换到“long”，可能丢失数据
+         f:\own\trunk\tiledvs\viewshed\viewshed\tiledMatrix.cpp(45): note: 编译类 模板 成员函数“int tiledMatrix<unsigned char>::get_time_of_day(timeval *,void *)”时
+         f:\own\trunk\tiledvs\viewshed\viewshed\tiledMatrix.cpp(409): note: 参见对正在编译的函数 模板 实例化“int tiledMatrix<unsigned char>::get_time_of_day(timeval *,void *)”的引用
+         ViewShed.cpp(189): note: 参见对正在编译的类 模板 实例化“tiledMatrix<unsigned char>”的引用
+       Link:
+         E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"F:\OWN\trunk\TiledVS\ViewShed\x64\Release\ViewShed.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"F:\OWN\trunk\TiledVS\ViewShed\..\lz4-1.8.2\lz4-1.8.2\visual\VS2010\bin\x64_Release" liblz4.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"F:\OWN\trunk\TiledVS\ViewShed\x64\Release\ViewShed.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\OWN\trunk\TiledVS\ViewShed\x64\Release\ViewShed.lib" /MACHINE:X64 x64\Release\stdafx.obj
+         x64\Release\tiledMatrix.obj
+         x64\Release\ViewShed.obj
+         正在生成代码
+         All 173 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+         已完成代码的生成
+         ViewShed.vcxproj -> F:\OWN\trunk\TiledVS\ViewShed\x64\Release\ViewShed.exe
+     1>已完成生成项目“F:\OWN\trunk\TiledVS\ViewShed\ViewShed\ViewShed.vcxproj”(Rebuild 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:02.88
